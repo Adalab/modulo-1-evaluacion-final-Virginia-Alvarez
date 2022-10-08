@@ -1,8 +1,19 @@
-// @import 'core/variables';
-// @import 'core/reset';
+@import 'core/variables';
+@import 'core/reset';
 // @import 'components/code';
 // @import 'components/links';
 // @import 'layout/page';
-// @import 'layout/header';
-// @import 'layout/footer';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/main-content';
+@import 'components/reasons';
+@import 'layout/footer';
 // @import 'pages/index';
+
+body {
+    font-family: $font-roboto-regular;
+}
+
+h1, h2, h3 {
+    font-family: $font-roboto-slab-bold;
+}
