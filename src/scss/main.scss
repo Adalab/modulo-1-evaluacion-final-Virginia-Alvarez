@@ -12,6 +12,9 @@
 
 body {
     font-family: $font-roboto-regular;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 h1, h2, h3 {

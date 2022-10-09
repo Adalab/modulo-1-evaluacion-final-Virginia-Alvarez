@@ -94,11 +94,8 @@ table {
   background-repeat: no-repeat;
   border: none;
   background-size: auto;
-  margin-bottom: 34.1px; }
-
-.link-reasons-page {
-  width: auto;
-  height: auto; }
+  margin-bottom: 34.1px;
+  background-color: #ffffff; }
 
 .section-text {
   gap: 10px; }
@@ -131,7 +128,7 @@ table {
 
 .button-go {
   margin-top: 26px;
-  margin-bottom: 74px;
+  margin-bottom: 45px;
   margin-left: 15px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -140,20 +137,43 @@ table {
   width: 76px;
   height: 45px;
   background-color: #ffffff;
-  border-radius: 46%;
+  border-radius: 22.5px;
   border: 2px solid #f26002; }
 
 .section-reasons {
-  background-color: purple;
-  position: absolute; }
+  background-color: #eff9ff;
+  padding-top: 29px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  -moz-column-gap: 5px;
+  column-gap: 5px;
+  justify-items: center; }
+
+.articles-reasons {
+  padding: 0 5px; }
 
 .title-reasons {
-  margin-top: 29px;
-  margin-left: 15px;
-  margin-right: 15px;
   color: #000000;
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
   line-height: 1.25;
+  text-align: center; }
+
+.subtitles-reason {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  line-height: 1.67;
+  margin-top: 49px;
+  text-align: center; }
+
+.text-reasons {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.67;
+  margin-top: 1px;
   text-align: center; }
 
 .button-reasons {
@@ -162,13 +182,30 @@ table {
   background-color: #f26002;
   width: 184px;
   height: 45px;
-  border-radius: 40%;
-  margin: 0 68px;
+  border-radius: 22.5px;
+  border: none;
+  margin: auto;
   margin-top: 41px;
   margin-bottom: 60px; }
 
+.button-footer {
+  background-image: url("../images/ico-scroll-down.svg");
+  width: 37.9px;
+  height: 37px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-size: auto;
+  margin-bottom: 34.1px;
+  background-color: #ffffff;
+  z-index: 1000; }
+
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
 
 h1, h2, h3 {
   font-family: "Roboto Slab", serif; }
