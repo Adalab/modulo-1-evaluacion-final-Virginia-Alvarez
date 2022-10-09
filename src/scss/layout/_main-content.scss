@@ -1,0 +1,75 @@
+.section-text {
+    gap:10px;
+}
+.insomnia {
+    color: $color-light-blue;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 217px;
+    margin-top: 37px;
+}
+
+.title2 {
+    font-size: 24px;
+    line-height: 1.25;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: $color-black;
+   
+}
+
+.section-text p {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    color:  $color-grey;
+    line-height: 1.67;
+    text-align: left;
+}
+
+.button-go {
+    margin-top: 26px;
+    margin-bottom: 74px;
+    margin-left:15px;
+    font-size: 20px;
+    font-family: $font-roboto-regular;
+    font-weight: 500;
+    color: $color-orange;
+    width: 76px;
+    height: 45px;
+    // background-image: url(../images/ico-menu.svg);
+    background-color: $color-white;
+    border-radius: 46%;
+    border: 2px solid $color-orange;
+}
+
+.section-reasons {
+    background-color: $color-prueba;
+    position: absolute;
+}
+
+.title-reasons {
+    margin-top: 29px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: $color-black;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.button-reasons {
+    color: $color-white;
+    font-size: 20px;
+    background-color: $color-orange;
+    width: 184px;
+    height: 45px;
+    border-radius: 40%;
+    margin: 0 68px;
+    margin-top:41px;
+    margin-bottom: 60px;
+}
