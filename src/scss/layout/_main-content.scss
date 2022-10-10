@@ -1,5 +1,8 @@
 .section-text {
     gap:10px;
+    @media all and (min-width: 768px) {
+        padding:0 39px;
+    }
 }
 .insomnia {
     color: $color-light-blue;
@@ -18,7 +21,9 @@
     margin-right: 15px;
     margin-top: 10px;
     color: $color-black;
-   
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+    }   
 }
 
 .section-text p {
@@ -29,6 +34,9 @@
     color:  $color-grey;
     line-height: 1.67;
     text-align: left;
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+    }   
 }
 
 .button-go {
@@ -44,16 +52,25 @@
     background-color: $color-white;
     border-radius: 22.5px;
     border: 2px solid $color-orange;
+    @media all and (min-width: 768px) {
+        width: 91px;
+        height: 45px;
+    }   
 }
 
 .section-reasons {
     background-color: $color-background-section;
     padding-top: 29px;
     display: grid;
-    grid-template-columns: 20% auto 20% ;
+    grid-template-columns: auto auto auto ;
     grid-template-rows: auto auto auto auto auto;
     column-gap: 5px;
     justify-items: center;
+    @media all and (min-width: 768px) {
+        row-gap: 5px;
+        padding: 20px;
+    }
+    
 }
 
 .title-reasons {
@@ -63,11 +80,21 @@
     line-height: 1.25;
     text-align: center;
     grid-column: 2/3;
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 1.73;
+     }
+
 }
 
 .articles-reasons{
     padding: 0 5px;
     grid-column: 2/3;
+    @media all and (min-width: 768px) {
+        grid-column: unset;
+        grid-row: 2/3;
+     }
+    
 }
 
 .subtitles-reason {
@@ -77,6 +104,11 @@
     line-height: 1.67;
     margin-top: 49px;
     text-align: center;
+    @media all and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.25;
+     }
+
 }
 
 .text-reasons {
@@ -86,11 +118,17 @@
     line-height: 1.67;
     margin-top: 1px;
     text-align: center;
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 1.5;
+     }
+
 }
 
 .button-reasons {
     color: $color-white;
     font-size: 20px;
+    line-height: 2.25;
     background-color: $color-orange;
     width: 184px;
     height: 45px;
@@ -100,4 +138,9 @@
     margin-top:41px;
     margin-bottom: 60px;
     grid-column: 2/3;
+    @media all and (min-width: 768px) {
+        width: 210px;
+        height: 45px;
+        
+     }
 }
