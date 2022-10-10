@@ -1,7 +1,6 @@
 
 
 .hero {
-    width: 100vw;
     height: 100vh;
     background-image: url('../images/cover.jpeg');
     background-position: center;
@@ -13,11 +12,9 @@
     color: $color-white;
     gap: 20px;
     @media all and (min-width: 768px) {
-        height: 768px;
         gap: 30px;
     }
-    @media all and (min-width: 1280px) {
-        height: 781px;                           
+    @media all and (min-width: 1280px) {                        
         gap: 30px;
     }
 }
@@ -67,5 +64,5 @@
     @media all and (min-width:1280px) {
         height: 45px;
         width: 45px;
-    }
+    } 
 }

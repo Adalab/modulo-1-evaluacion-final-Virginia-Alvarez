@@ -80,7 +80,6 @@ table {
   padding: 10px 12px; }
 
 .hero {
-  width: 100vw;
   height: 100vh;
   background-image: url("../images/cover.jpeg");
   background-position: center;
@@ -93,11 +92,9 @@ table {
   gap: 20px; }
   @media all and (min-width: 768px) {
     .hero {
-      height: 768px;
       gap: 30px; } }
   @media all and (min-width: 1280px) {
     .hero {
-      height: 781px;
       gap: 30px; } }
 
 .title-hero {
@@ -168,6 +165,7 @@ table {
       line-height: 1.88; } }
 
 .title2 {
+  text-transform: capitalize;
   font-size: 24px;
   line-height: 1.25;
   margin-left: 15px;
@@ -198,6 +196,9 @@ table {
       font-size: 20px;
       line-height: 1.5; } }
 
+.section-text-button {
+  width: 30%; }
+
 .button-go {
   margin-top: 26px;
   margin-bottom: 45px;
@@ -210,7 +211,8 @@ table {
   height: 45px;
   background-color: #ffffff;
   border-radius: 22.5px;
-  border: 2px solid #f26002; }
+  border: 2px solid #f26002;
+  transition: all 1s; }
   @media all and (min-width: 768px) {
     .button-go {
       width: 91px;
@@ -219,6 +221,8 @@ table {
     .button-go {
       width: 160px;
       height: 45px; } }
+  .section-text-button:hover .button-go {
+    transform: scale(2); }
 
 .section-reasons {
   background-color: #eff9ff;
@@ -231,10 +235,10 @@ table {
   justify-items: center; }
   @media all and (min-width: 768px) {
     .section-reasons {
-      row-gap: 5px;
-      padding: 20px; } }
+      row-gap: 5px; } }
 
 .title-reasons {
+  text-transform: capitalize;
   color: #000000;
   font-family: "Roboto Slab", serif;
   font-size: 24px;
@@ -283,6 +287,7 @@ table {
       line-height: 1.5; } }
 
 .button-reasons {
+  text-transform: capitalize;
   color: #ffffff;
   font-size: 20px;
   line-height: 2.25;

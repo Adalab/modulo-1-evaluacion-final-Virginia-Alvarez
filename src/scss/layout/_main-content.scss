@@ -23,6 +23,7 @@
 }
 
 .title2 {
+    text-transform: capitalize;
     font-size: 24px;
     line-height: 1.25;
     margin-left: 15px;
@@ -54,6 +55,9 @@
         line-height: 1.5;
     }   
 }
+.section-text-button {
+    width: 30%;
+}
 
 .button-go {
     margin-top: 26px;
@@ -75,7 +79,12 @@
     @media all and (min-width: 1280px) {
         width: 160px;
         height: 45px;
-    }   
+    }
+    .section-text-button:hover & {
+        transform: scale(2);
+    }
+    
+    transition: all 1s;   
 }
 
 .section-reasons {
@@ -88,12 +97,12 @@
     justify-items: center;
     @media all and (min-width: 768px) {
         row-gap: 5px;
-        padding: 20px;
     }
     
 }
 
 .title-reasons {
+    text-transform: capitalize;
     color: $color-black;
     font-family: $font-roboto-slab-bold;
     font-size: 24px;
@@ -122,6 +131,7 @@
 }
 
 .subtitles-reason {
+    
     font-size: 18px;
     font-family: $font-roboto-slab-bold;
     color: $color-black;
@@ -148,6 +158,7 @@
 }
 
 .button-reasons {
+    text-transform: capitalize;
     color: $color-white;
     font-size: 20px;
     line-height: 2.25;
