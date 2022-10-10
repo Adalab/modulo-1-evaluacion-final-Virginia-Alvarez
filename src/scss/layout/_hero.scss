@@ -16,6 +16,10 @@
         height: 768px;
         gap: 30px;
     }
+    @media all and (min-width: 1280px) {
+        height: 781px;                           
+        gap: 30px;
+    }
 }
 
 .title-hero {
@@ -27,6 +31,10 @@
     @media all and (min-width:768px) {
         font-size: 80px;
     }
+    @media all and (min-width:1280px) {
+        font-size: 100px;
+        line-height: 1.32;
+    }
 }
 
 .hero p {
@@ -34,6 +42,10 @@
     line-height: 1.19;
     @media all and (min-width: 768px) {
         font-size: 24px;
+    }
+    @media all and (min-width:1280px) {
+        font-size: 24px;
+        line-height: 1.17;
     }
 }
 
@@ -51,5 +63,9 @@
     @media all and (min-width: 768px) {
         height: 45px;
         width: 42.5px;
+    }
+    @media all and (min-width:1280px) {
+        height: 45px;
+        width: 45px;
     }
 }

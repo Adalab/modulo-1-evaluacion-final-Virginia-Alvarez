@@ -12,6 +12,10 @@
             width: 41.6px;
             height: 44px;
     }
+    @media all and (min-width:1280px) {
+        width: 44px;
+        height: 44px;
+    }
 }
 
 .hamburger {
@@ -19,6 +23,10 @@
     height: 9.7px;   
     @media all and (min-width:768px) {
         width: 15.1px;
+        height: 14px;
+    }
+    @media all and (min-width:1280px) {
+        width: 16px;
         height: 14px;
     }
 }

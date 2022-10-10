@@ -59,6 +59,10 @@ table {
     .header {
       width: 41.6px;
       height: 44px; } }
+  @media all and (min-width: 1280px) {
+    .header {
+      width: 44px;
+      height: 44px; } }
 
 .hamburger {
   width: 13.5px;
@@ -66,6 +70,10 @@ table {
   @media all and (min-width: 768px) {
     .hamburger {
       width: 15.1px;
+      height: 14px; } }
+  @media all and (min-width: 1280px) {
+    .hamburger {
+      width: 16px;
       height: 14px; } }
 
 .link-adalab {
@@ -87,6 +95,10 @@ table {
     .hero {
       height: 768px;
       gap: 30px; } }
+  @media all and (min-width: 1280px) {
+    .hero {
+      height: 781px;
+      gap: 30px; } }
 
 .title-hero {
   text-transform: uppercase;
@@ -97,6 +109,10 @@ table {
   @media all and (min-width: 768px) {
     .title-hero {
       font-size: 80px; } }
+  @media all and (min-width: 1280px) {
+    .title-hero {
+      font-size: 100px;
+      line-height: 1.32; } }
 
 .hero p {
   font-size: 16px;
@@ -104,6 +120,10 @@ table {
   @media all and (min-width: 768px) {
     .hero p {
       font-size: 24px; } }
+  @media all and (min-width: 1280px) {
+    .hero p {
+      font-size: 24px;
+      line-height: 1.17; } }
 
 .button-hero {
   background-image: url("../images/ico-scroll-down.svg");
@@ -120,12 +140,19 @@ table {
     .button-hero {
       height: 45px;
       width: 42.5px; } }
+  @media all and (min-width: 1280px) {
+    .button-hero {
+      height: 45px;
+      width: 45px; } }
 
 .section-text {
   gap: 10px; }
   @media all and (min-width: 768px) {
     .section-text {
       padding: 0 39px; } }
+  @media all and (min-width: 1280px) {
+    .section-text {
+      padding: 0 274px; } }
 
 .insomnia {
   color: #8ccbea;
@@ -135,6 +162,10 @@ table {
   margin-left: 15px;
   margin-right: 217px;
   margin-top: 37px; }
+  @media all and (min-width: 1280px) {
+    .insomnia {
+      font-size: 16px;
+      line-height: 1.88; } }
 
 .title2 {
   font-size: 24px;
@@ -146,6 +177,10 @@ table {
   @media all and (min-width: 768px) {
     .title2 {
       font-size: 26px; } }
+  @media all and (min-width: 1280px) {
+    .title2 {
+      font-size: 32px;
+      line-height: 1.41; } }
 
 .section-text p {
   margin-left: 15px;
@@ -158,6 +193,10 @@ table {
   @media all and (min-width: 768px) {
     .section-text p {
       font-size: 20px; } }
+  @media all and (min-width: 1280px) {
+    .section-text p {
+      font-size: 20px;
+      line-height: 1.5; } }
 
 .button-go {
   margin-top: 26px;
@@ -175,6 +214,10 @@ table {
   @media all and (min-width: 768px) {
     .button-go {
       width: 91px;
+      height: 45px; } }
+  @media all and (min-width: 1280px) {
+    .button-go {
+      width: 160px;
       height: 45px; } }
 
 .section-reasons {
@@ -202,6 +245,10 @@ table {
     .title-reasons {
       font-size: 26px;
       line-height: 1.73; } }
+  @media all and (min-width: 1280px) {
+    .title-reasons {
+      font-size: 32px;
+      line-height: 1.41; } }
 
 .articles-reasons {
   padding: 0 5px;
@@ -252,6 +299,10 @@ table {
     .button-reasons {
       width: 210px;
       height: 45px; } }
+  @media all and (min-width: 1280px) {
+    .button-reasons {
+      width: 255px;
+      height: 45px; } }
 
 .footer {
   background-color: #304268;
@@ -270,9 +321,15 @@ table {
     .inner-footer {
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 0 30px;
+      justify-content: space-around;
       align-items: flex-start; } }
+  @media all and (min-width: 1280px) {
+    .inner-footer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px; } }
 
 .button-footer {
   background-image: url("../images/ico-arrow.svg");
