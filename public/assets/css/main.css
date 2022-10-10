@@ -196,12 +196,9 @@ table {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 30px; }
-
-.footer a {
-  list-style: none;
-  text-decoration: none;
-  color: #ffffff; }
+  gap: 25px;
+  color: #ffffff;
+  padding-bottom: 30px; }
 
 .button-footer {
   background-image: url("../images/ico-arrow.svg");
@@ -212,11 +209,33 @@ table {
   background-repeat: no-repeat;
   border: none;
   background-size: auto;
-  margin-bottom: 34.1px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  transform: translateY(-20px); }
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.footer-link {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.88;
+  text-transform: uppercase;
+  color: #ffffff; }
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 2.14; }
 
 .heart {
-  color: red; }
+  color: #f26002; }
 
 body {
   font-family: "Roboto", sans-serif;
