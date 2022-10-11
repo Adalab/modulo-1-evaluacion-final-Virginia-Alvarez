@@ -42,24 +42,25 @@
     margin: auto; 
     transition: 0.5s;
 }
-    .button-footer:after {
-        content: '»';
-        color: $color-orange;
-        position: absolute;
-        opacity: 0;  
-        top: 14px;
-        right: -20px;
-        transition: 0.5s;
-    }
-    .button-footer:hover{
-        padding-right: 24px;
-        padding-left:8px;
-    }
-    
-    .button-footer:hover:after {
-        opacity: 1;
-        right: 10px;
-    }
+
+.button-footer:after {
+    content: '»';
+    color: $color-orange;
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+.button-footer:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+.button-footer:hover:after {
+    opacity: 1;
+    right: 10px;
+}
 
 .footer-list {
     display: flex;

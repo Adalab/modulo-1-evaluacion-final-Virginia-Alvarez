@@ -17,6 +17,17 @@
     @media all and (min-width: 1280px) {                        
         gap: 30px;
     }
+    p {
+        font-size: 16px;
+        line-height: 1.19;
+        @media all and (min-width: 768px) {
+            font-size: 24px;
+        }
+        @media all and (min-width:1280px) {
+            font-size: 24px;
+            line-height: 1.17;
+        }
+    }
 }
 
 .title-hero {
@@ -31,18 +42,6 @@
     @media all and (min-width:1280px) {
         font-size: 100px;
         line-height: 1.32;
-    }
-}
-
-.hero p {
-    font-size: 16px;
-    line-height: 1.19;
-    @media all and (min-width: 768px) {
-        font-size: 24px;
-    }
-    @media all and (min-width:1280px) {
-        font-size: 24px;
-        line-height: 1.17;
     }
 }
 

@@ -97,6 +97,16 @@ table {
   @media all and (min-width: 1280px) {
     .hero {
       gap: 30px; } }
+  .hero p {
+    font-size: 16px;
+    line-height: 1.19; }
+    @media all and (min-width: 768px) {
+      .hero p {
+        font-size: 24px; } }
+    @media all and (min-width: 1280px) {
+      .hero p {
+        font-size: 24px;
+        line-height: 1.17; } }
 
 .title-hero {
   text-transform: uppercase;
@@ -111,17 +121,6 @@ table {
     .title-hero {
       font-size: 100px;
       line-height: 1.32; } }
-
-.hero p {
-  font-size: 16px;
-  line-height: 1.19; }
-  @media all and (min-width: 768px) {
-    .hero p {
-      font-size: 24px; } }
-  @media all and (min-width: 1280px) {
-    .hero p {
-      font-size: 24px;
-      line-height: 1.17; } }
 
 .button-hero {
   background-image: url("../images/ico-scroll-down.svg");
@@ -151,6 +150,21 @@ table {
   @media all and (min-width: 1280px) {
     .section-text {
       padding: 0 274px; } }
+  .section-text p {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.67;
+    text-align: left; }
+    @media all and (min-width: 768px) {
+      .section-text p {
+        font-size: 20px; } }
+    @media all and (min-width: 1280px) {
+      .section-text p {
+        font-size: 20px;
+        line-height: 1.5; } }
 
 .insomnia {
   color: #8ccbea;
@@ -180,22 +194,6 @@ table {
     .title2 {
       font-size: 32px;
       line-height: 1.41; } }
-
-.section-text p {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 20px;
-  font-size: 18px;
-  color: #4a4a4a;
-  line-height: 1.67;
-  text-align: left; }
-  @media all and (min-width: 768px) {
-    .section-text p {
-      font-size: 20px; } }
-  @media all and (min-width: 1280px) {
-    .section-text p {
-      font-size: 20px;
-      line-height: 1.5; } }
 
 .section-text-button {
   width: 30%; }

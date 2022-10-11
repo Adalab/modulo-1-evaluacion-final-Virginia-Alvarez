@@ -6,6 +6,22 @@
     @media all and (min-width: 1280px) {
         padding:0 274px;
     }
+    p {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 20px;
+        font-size: 18px;
+        color:  $color-grey;
+        line-height: 1.67;
+        text-align: left;
+        @media all and (min-width: 768px) {
+            font-size: 20px;
+        }   
+        @media all and (min-width: 1280px) {
+            font-size: 20px;
+            line-height: 1.5;
+        }   
+    }
 }
 
 .insomnia {
@@ -39,22 +55,6 @@
     }   
 }
 
-.section-text p {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 20px;
-    font-size: 18px;
-    color:  $color-grey;
-    line-height: 1.67;
-    text-align: left;
-    @media all and (min-width: 768px) {
-        font-size: 20px;
-    }   
-    @media all and (min-width: 1280px) {
-        font-size: 20px;
-        line-height: 1.5;
-    }   
-}
 .section-text-button {
     width: 30%;
 }
