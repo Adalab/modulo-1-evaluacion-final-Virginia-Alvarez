@@ -91,14 +91,13 @@
     background-color: $color-background-section;
     padding-top: 29px;
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: percentage(1/3) percentage(1/3) percentage(1/3) ;
     grid-template-rows: auto auto auto auto auto;
     column-gap: 5px;
     justify-items: center;
     @media all and (min-width: 768px) {
         row-gap: 5px;
-    }
-    
+    }  
 }
 
 .title-reasons {
@@ -126,6 +125,10 @@
     @media all and (min-width: 768px) {
         grid-column: unset;
         grid-row: 2/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
      }
     
 }
@@ -156,6 +159,9 @@
         line-height: 1.5;
      }
 }
+.button-grid{
+    grid-column: 2/3;
+}
 
 .button-reasons {
     text-transform: capitalize;
@@ -170,7 +176,7 @@
     margin: auto;
     margin-top:41px;
     margin-bottom: 60px;
-    grid-column: 2/3;
+    transition: all 1s;  
     @media all and (min-width: 768px) {
         width: 210px;
         height: 45px;  
@@ -179,4 +185,8 @@
         width: 255px;
         height: 45px;  
      }
+    .button-grid:hover & {
+        transform: scale(2);
+    }   
+     
 }

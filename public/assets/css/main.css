@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -228,7 +229,7 @@ table {
   background-color: #eff9ff;
   padding-top: 29px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33.33333% 33.33333% 33.33333%;
   grid-template-rows: auto auto auto auto auto;
   -moz-column-gap: 5px;
   column-gap: 5px;
@@ -260,7 +261,11 @@ table {
   @media all and (min-width: 768px) {
     .articles-reasons {
       grid-column: unset;
-      grid-row: 2/3; } }
+      grid-row: 2/3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
 
 .subtitles-reason {
   font-size: 18px;
@@ -286,6 +291,9 @@ table {
       font-size: 20px;
       line-height: 1.5; } }
 
+.button-grid {
+  grid-column: 2/3; }
+
 .button-reasons {
   text-transform: capitalize;
   color: #ffffff;
@@ -299,7 +307,7 @@ table {
   margin: auto;
   margin-top: 41px;
   margin-bottom: 60px;
-  grid-column: 2/3; }
+  transition: all 1s; }
   @media all and (min-width: 768px) {
     .button-reasons {
       width: 210px;
@@ -308,6 +316,8 @@ table {
     .button-reasons {
       width: 255px;
       height: 45px; } }
+  .button-grid:hover .button-reasons {
+    transform: scale(2); }
 
 .footer {
   background-color: #304268;
@@ -334,7 +344,7 @@ table {
       flex-wrap: wrap;
       justify-content: center;
       align-items: flex-start;
-      gap: 50px; } }
+      gap: 100px; } }
 
 .button-footer {
   background-image: url("../images/ico-arrow.svg");
@@ -348,7 +358,25 @@ table {
   background-color: #ffffff;
   transform: translateY(-20px);
   display: block;
-  margin: auto; }
+  margin: auto;
+  transition: 0.5s; }
+
+.button-footer:after {
+  content: '»';
+  color: #f26002;
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s; }
+
+.button-footer:hover {
+  padding-right: 24px;
+  padding-left: 8px; }
+
+.button-footer:hover:after {
+  opacity: 1;
+  right: 10px; }
 
 .footer-list {
   display: flex;
