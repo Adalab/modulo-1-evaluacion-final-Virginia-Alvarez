@@ -1,3 +1,24 @@
+.newsection {
+    width: 100vw;
+    background-color: $color-orange;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media all and (min-width:768px){
+        gap: 20px;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: $color-blue;    
+    }
+
+}
+
+.linktrello {
+    padding: 15px;
+}
+
 .section-text {
     gap:10px;
     @media all and (min-width: 768px) {
